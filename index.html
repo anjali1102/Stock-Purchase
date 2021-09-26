@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Purchase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stock Purchase</h1>
+    </header>
+    <main>
+      <form>
+        <label class="input-label" for="initial-price"
+          ">Initial Price
+          <input
+            type="number"
+            id="initial-price"
+            placeholder="Enter Initial Price Enter"
+            min="1" max="1000" required
+          />
+        </label>
+        <label class="input-label" for="quantity-stocks"
+          >Quantity Of stocks
+          <input
+            type="number"
+            id="quantity-stocks"
+            placeholder="Enter the number of Stocks"
+            min="1" required
+          />
+        </label>
+        <label class="input-label" for="current-price"
+          >Current Price
+          <input
+            type="number"
+            id="current-price"
+            placeholder="Enter the Current Price"
+            min="1" max="1000" required
+          />
+        </label>
+        <button id="submit">Tell Me !</button>
+        <div id="output-box"></div>
+    </form>
+    </main>
+    <footer>
+      <p>© | 2021 | anjali chauhan</p>
+      <ul class="list-unordered inline-list">
+        <li>
+          <a class="links" href="https://github.com/anjali1102/" target="_blank">
+            <img src="img/github.svg" alt="github" />
+          </a>
+        </li>
+        <li>
+          <a class="links" href="https://twitter.com/anjalii1102" target="_blank">
+            <img src="img/twitter.svg" alt="twitter" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
