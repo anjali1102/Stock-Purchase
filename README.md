@@ -2,10 +2,15 @@
 
 <h2> Stock Purchase: Profit or Loss   </h2>
 
+**LIVE DEMO 👉**  https://zen-heisenberg-bc5eff.netlify.app/
+
+
 > Stock Analyser website which helps user how much profit or loss he/she is making in percentage & absolute value. It takes input value of Intial Price of Stock, Current Price Of Stock, Number Of Stocks. Made with HTML, CSS, Javascript. 
 
-TECH STACKS : 
-HTML
+
+<h2>TECH STACKS :</h2> 
+
+>HTML
 CSS
 JAVASCRIPT
 
