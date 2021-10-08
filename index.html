@@ -19,7 +19,7 @@
             type="number"
             id="initial-price"
             placeholder="Enter Initial Price Enter"
-            min="1" max="1000" required
+            min="1" max="1000" oninput="this.value = Math.abs(this.value)" required
           />
         </label>
         <label class="input-label" for="quantity-stocks"
@@ -28,7 +28,7 @@
             type="number"
             id="quantity-stocks"
             placeholder="Enter the number of Stocks"
-            min="1" required
+            min="1" oninput="this.value = Math.abs(this.value)" required
           />
         </label>
         <label class="input-label" for="current-price"
@@ -37,7 +37,7 @@
             type="number"
             id="current-price"
             placeholder="Enter the Current Price"
-            min="1" max="1000" required
+            min="1" max="1000" oninput="this.value = Math.abs(this.value)" required
           />
         </label>
       </form>
